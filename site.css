@@ -1,0 +1,128 @@
+body {
+  width: fit-content;
+  height: fit-content;
+  margin: 3rem 0;
+  padding: 0;
+  background-color: burlywood;
+  font-size: 3rem;
+}
+
+.prompt {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.answer {
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  width: 800px;
+  height: 800px;
+}
+
+.grid-item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+}
+
+#box1 {
+  border-left: 5px solid;
+  border-bottom: 5px solid;
+  border-top: 5px solid;
+  border-right: 1px solid gray;
+}
+
+#box2 {
+  border-right: 5px solid;
+  border-bottom: 5px solid;
+  border-top: 5px solid;
+}
+
+#box3 {
+  border-left: 5px solid;
+  border-bottom: 5px solid;
+  border-top: 5px solid;
+}
+
+#box4 {
+  border-right: 5px solid;
+  border-bottom: 5px solid;
+  border-top: 5px solid;
+  border-left: 1px solid gray;
+}
+
+#box5 {
+  border-right: 1px solid gray;
+  border-left: 5px solid;
+  border-bottom: 5px solid;
+}
+
+#box6 {
+  border-bottom: 1px solid gray;
+  border-right: 5px solid;
+}
+
+#box7 {
+  border-left: 5px solid;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+#box8 {
+  border-right: 5px solid;
+}
+
+#box9 {
+  border-right: 5px solid;
+  border-bottom: 5px solid;
+  border-left: 5px solid;
+}
+
+#box10 {
+  border-right: 5px solid;
+  border-bottom: 5px solid;
+}
+
+#box11 {
+  border-bottom: 5px solid;
+  border-left: 5px solid;
+}
+
+#box12 {
+  border-right: 5px solid;
+  border-top: 5px solid;
+  border-left: 5px solid;
+}
+
+#box13 {
+  border-left: 5px solid;
+  border-bottom: 5px solid;
+  border-right: 1px solid gray;
+}
+
+#box14 {
+  border-right: 5px solid;
+  border-bottom: 5px solid;
+}
+
+#box15 {
+  border-left: 5px solid;
+  border-bottom: 5px solid;
+  border-right: 1px solid gray;
+}
+
+#box16 {
+  border-top: 1px solid gray;
+  border-bottom: 5px solid;
+  border-right: 5px solid;
+}
